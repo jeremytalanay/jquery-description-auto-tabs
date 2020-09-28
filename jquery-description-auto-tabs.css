@@ -1,0 +1,33 @@
+ul.autotabs_nav{
+    padding: 0 0 10px 0;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+ul.autotabs_nav li{
+    list-style: none;
+    display: inline-block;
+}
+ul.autotabs_nav li a{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+    color: #999;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+ul.autotabs_nav li.active a,
+ul.autotabs_nav li a:hover{
+    color: #222;
+}
+.autotabs_tabs{
+    padding: 2px 12px;
+}
+.autotabs_tabs .autotabs_pane:not(.active){
+    display: none;
+}
+.autotabs_tabs .autotabs_pane img{
+    max-width: 100%;
+}
